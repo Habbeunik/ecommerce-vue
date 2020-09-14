@@ -1,42 +1,44 @@
 {
-	"name": "ecommerce",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"serve": "vue-cli-service serve",
-		"build": "vue-cli-service build",
-		"lint": "vue-cli-service lint"
-	},
-	"dependencies": {
-		"core-js": "^3.6.5",
-		"feather-icons": "^4.28.0",
-		"sass": "^1.26.10",
-		"sass-loader": "^10.0.2",
-		"typescript": "^4.0.2",
-		"vue": "^2.6.11",
-		"vue-feather": "^1.0.1",
-		"vue-feather-icons": "^5.1.0"
-	},
-	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.1.0",
-		"@typescript-eslint/parser": "^4.1.0",
-		"@vue/cli-plugin-babel": "~4.5.0",
-		"@vue/cli-plugin-eslint": "~4.5.0",
-		"@vue/cli-service": "~4.5.0",
-		"babel-eslint": "^10.1.0",
-		"eslint": "^7.8.1",
-		"eslint-config-airbnb-base": "^14.2.0",
-		"eslint-config-prettier": "^6.11.0",
-		"eslint-plugin-import": "^2.22.0",
-		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-prettier-vue": "^2.1.1",
-		"eslint-plugin-vue": "^7.0.0-beta.3",
-		"prettier": "2.1.1",
-		"vue-template-compiler": "^2.6.11"
-	},
-	"browserslist": [
-		"> 1%",
-		"last 2 versions",
-		"not dead"
-	]
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "feather-icons": "^4.28.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "typescript": "^4.0.2",
+    "vue": "^2.6.11",
+    "vue-feather": "^1.0.1",
+    "vue-feather-icons": "^5.1.0",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-prettier-vue": "^2.1.1",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "prettier": "2.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

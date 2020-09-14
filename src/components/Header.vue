@@ -2,9 +2,14 @@
 	<div class="header">
 		<div class="container header__wrapper">
 			<div class="nav">
-				<div class="nav__item" v-for="nav in navs" :key="nav.path">
+				<router-link
+					v-for="nav in navs"
+					:key="nav.path"
+					to="/store"
+					class="nav__item"
+				>
 					<span>{{ nav.label }}</span>
-				</div>
+				</router-link>
 			</div>
 			<MenuIcon size="22" class="icon"></MenuIcon>
 			<span class="title">urban outfitters</span>
@@ -113,6 +118,10 @@ export default {
 .nav {
 	display: none;
 
+	a {
+		text-decoration: none;
+	}
+
 	@media screen and (min-width: 800px) {
 		display: flex;
 	}
@@ -126,11 +135,12 @@ export default {
 		align-items: center;
 
 		span {
+			color: #000000;
 			margin: 0px 5px;
 		}
 
-		&::first-child {
-			margin-left: 0px;
+		&:first-child {
+			margin-left: -5px;
 		}
 	}
 }
@@ -139,6 +149,7 @@ export default {
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: circular;
+	font-size: 20px;
 
 	@media screen and (min-width: 800px) {
 		color: #000000;
